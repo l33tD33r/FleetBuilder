@@ -1,0 +1,31 @@
+﻿.ship-viewer {
+    position: relative;
+    display: inline-block;
+    width: 600px;
+}
+
+.ship-viewer-master {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 5px;
+
+    .ship-viewer-ship {
+        display: block;
+        width: 350px;
+        margin: 5px;
+
+        .ship-type {
+            display: inline-block;
+        }
+        .ship-name {
+            display: inline-block;
+        }
+    }
+}
+
+.ship-viewer-details {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
